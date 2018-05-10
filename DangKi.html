@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+  <title>Home</title>
+  <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="album.css" rel="stylesheet">
+</head>
+<body>
+  <div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    
+
+    <div style="padding-left: 5px;">
+      <label for="uname"><b>Username</b></label>
+      <input class="inputlogin" type="text" placeholder="Enter Username" name="uname" required>
+   
+      <label for="psw"><b>Password</b></label>
+      <input class="inputlogin" type="password" placeholder="Enter Password" name="psw" required>
+        
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div style="background-color:#f1f1f1; padding: 16px;">
+      <button type="button" class="btn btn-danger" onclick="document.getElementById('id01').style.display='none'">Cancel</button>
+      <button type="button" class="btn btn-success buttonlogin">Login</button>
+    </div>
+  </form>
+</div>
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark navrole fixed-top">
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav mr-auto" style="width: 800px;">
+      <li class="nav-item active">
+        <a class="nav-link text-primary" href="index.html">Home</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav mr-auto" style="float: right;">
+      <li class="nav-item">
+        <a style="cursor: pointer;" class="nav-link" onclick="document.getElementById('id01').style.display='block'">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="DangKy.html">Sign Up</a>
+      </li>
+      <div class="nav-item dropdown">
+        <a style="cursor: pointer;" class="nav-link dropdown-toggle" data-toggle="dropdown">action account</a>
+        <div class="dropdown-menu">
+      <a class="dropdown-item" href="LichSuDauGia.html">Lịch sử đấu giá</a>
+      <a class="dropdown-item" href="DonHang.html">Đơn hàng</a>
+      <a class="dropdown-item" href="ChinhSuaThongTinTaiKhoan.html">Chỉnh sửa thông tin</a>
+      <a class="dropdown-item" href="DonHang.html">Đăng Xuất</a>
+      <a class="dropdown-item" href="#">Chức năng khác</a>
+    </div>
+      </div>
+      
+    </ul>
+  </div>
+</nav>
+
+    <main role="main">
+
+      <section class="jumbotron bg-info" style="height: 100px">
+        <div class="container text-center">
+          <div>
+            <a href="sanphamtheoloai.html">Công Nghệ</a>
+            |
+            <a href="sanphamtheoloai.html">Thời Trang</a>
+            |
+            <a href="sanphamtheoloai.html">Phụ Kiện</a>
+            |
+            <a href="sanphamtheoloai.html">Gia Đình</a>
+          </div>
+        </div>
+        <div class="container" style="margin-left: 100px;font-size: 20px;">
+            <span class="fa fa-truck" style="flex: 1; padding-right: 200px;">
+              Miễn phí giao hàng với hóa đơn trên 100k
+            </span>
+            <span class="fa fa-rocket" style="flex: 2;padding-right: 200px;">
+              Giao hàng cực nhanh
+            </span>
+            <span class="fa fa-phone-square" style="flex: 3;">
+              02836222111
+            </span>
+         </div>
+      </section>
+
+      <div class="py-5 bg-light">
+      <div class="col-sm-4" style="margin: auto;">
+        <div class="form-group">
+          <label for="usr">Họ Tên:</label>
+          <input type="text" class="form-control" id="usr">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="text" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+          <label for="sdt">SĐT:</label>
+          <input type="text" class="form-control" id="sdt">
+        </div>
+        <div class="form-group">
+          <label for="diachi">Địa Chỉ:</label>
+          <input type="text" class="form-control" id="diachi">
+        </div>
+        <div class="form-group">
+          <label for="tendangnhap">Tên Đăng Nhập:</label>
+          <input type="text" class="form-control" id="tendangnhap">
+        </div>
+        <div class="form-group">
+          <label for="pwd1">Password:</label>
+          <input type="password" class="form-control" id="pwd1">
+        </div>
+        <div class="form-group">
+          <label for="pwd2">Password:</label>
+          <input type="password" class="form-control" id="pwd2">
+        </div>
+        <button type="button" class="btn btn-success buttonlogin">Sign Up</button>
+      </div>
+    </main>
+
+    <footer class="bg-info">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Trở lại đầu trang</a>
+        </p>
+        <p>Thông tin liên hệ</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</body>
+</html>
